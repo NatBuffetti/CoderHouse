@@ -1,18 +1,18 @@
 /**
  * Created by Nat on 6/2/2016.
  */
-/*Conversor pesos a dolares*/
+/*CONVERSOR PESOS A DOLARES*/
 
 var cotizacion = 14;
 var pesos= 20000;
 var pesos_a_dolar = (pesos * cotizacion).toFixed(2);
 console.log("El dólar cotiza hoy a $",cotizacion,".$",pesos," equivalen a",pesos_a_dolar,"USD.");
 
-/*Máquina boletos - vuelto : no suma stock al momento del pago*/
+/*MAQUINA BOLETOS - VUELTO*/
 
 var stock_maquina = {
-    un_pe:10,
-    cinc_cvo:5,
+    un_pe:0,
+    cinc_cvo:4,
     vein_cvo:10,
     diez_cvo:5,
     cinco_cvo:10
@@ -21,7 +21,7 @@ var stock_maquina = {
 var monedas_vuelto = {};
 
 var valor_boleto = 3.50;
-var valor_abonado = 5;
+var valor_abonado = 6;
 
 var valor_vuelto;
 valor_vuelto = (valor_abonado - valor_boleto).toFixed(2);
@@ -112,3 +112,12 @@ while (i) {
 };
 console.log("Su vuelto es: ",valor_vuelto, ". Monedas entregadas: ", monedas_vuelto);
 
+/*INICIALES DE UNA FRASE*/
+
+/*PONER LETRAS Y QUE TE DE NRO*/
+
+/*SEGUNDOS A DIAS, HORAS, MINUTOS Y SEGUNDOS*/
+
+/*METROS A CENTIMENTROS, MILIMETROS, KILOMETROS*/
+
+/*TWITTER*/
